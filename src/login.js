@@ -1,4 +1,4 @@
-import logo from './imagens/logo.jpeg';
+import logo from './imagens/logo.png';
 import './style.css';
 
 const Login = () => {
@@ -13,6 +13,8 @@ const Login = () => {
         <input type='email' placeholder='E-mail' className="form-input"/>
 
         <input type='password' placeholder='Password' className="form-input"/>
+
+        <button type='submit' className="form-button">LOGIN</button>
       </div>
     </div>
   )
