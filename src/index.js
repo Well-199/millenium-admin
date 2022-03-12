@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Login from './login';
+import Router from './routes/Routes';
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Login/>
+      <Router/>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
